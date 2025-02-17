@@ -1,0 +1,131 @@
+body {
+  background: #f4f7fc;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.task-management-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.task-management-container h1,
+.task-management-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+.task-management-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-management-container li {
+  background: #f9fafb;
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.task-management-container li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-management-container h2 {
+  margin-bottom: 0.5rem;
+  color: #2d3748;
+}
+
+.task-management-container p {
+  color: #4a5568;
+}
+
+.task-management-container button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.task-management-container button.text-blue-500:hover {
+  background: #ebf8ff;
+}
+
+.task-management-container button.text-red-500:hover {
+  background: #fee2e2;
+}
+
+.task-management-container form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.task-management-container input {
+  padding: 10px;
+  border: 1px solid #cbd5e0;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.task-management-container input:focus {
+  border-color: #3182ce;
+  outline: none;
+}
+
+.task-management-container button.bg-blue-500 {
+  background-color: #3182ce;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.task-management-container button.bg-blue-500:hover {
+  background-color: #2b6cb0;
+}
+
+.task-management-container button.bg-green-500 {
+  background-color: #38a169;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.task-management-container button.bg-green-500:hover {
+  background-color: #2f855a;
+}
+
+.task-management-container button.bg-gray-500 {
+  background-color: #a0aec0;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.task-management-container button.bg-gray-500:hover {
+  background-color: #718096;
+}
