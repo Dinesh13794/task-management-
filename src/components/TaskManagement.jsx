@@ -14,7 +14,7 @@ const TaskManagement = () => {
       try {
         const response = await api.get('/tasks');
         setTasks(response.data);
-      } catch (error) {
+      } catch (error) { 
         console.error(error);
         if (error.response.status === 401) {
           navigate('/login');
